@@ -3,9 +3,9 @@ entries:
   practicus-console:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-05T18:39:18.60304-07:00"
+    created: "2023-06-05T20:58:04.375954-07:00"
     description: Practicus AI management console
-    digest: 4637feb24bad6520ebeac6bcb72cc9a781805e1428db198a92e86c1a34f6105b
+    digest: 076b827d4db3c2294b6e3b6ecf77bc39e4dc2027d9acfaf770fd60d348f372c2
     name: practicus-console
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   practicus-console-aws-alb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-05T18:39:18.603516-07:00"
+    created: "2023-06-05T20:58:04.376519-07:00"
     description: Practicus AI management console AWS Application load balancer
-    digest: 79882330a35a4beb5c5ca1170a7681bb10f8f0fdb7d091fd759b75084e744242
+    digest: c8d09604c191c66417a61d595e49c2005bc272eca68fbbb40f6adb9a0ee635c0
     name: practicus-console-aws-alb
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   practicus-migrate-console-db:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-05T18:39:18.603727-07:00"
+    created: "2023-06-05T20:58:04.376767-07:00"
     description: Upgrades Practicus AI management console database
-    digest: 3eb664a5a474a2aeaddb635ca6369ae283c0b952efd6b491ee65f0a2bd001009
+    digest: f048f9e0c2e287eed15422b54ac1dfed6384d175efeb1c6f8fbf6bb5edcb1fdc
     name: practicus-migrate-console-db
     type: application
     urls:
@@ -36,12 +36,12 @@ entries:
   practicus-services:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-05T18:39:18.60446-07:00"
+    created: "2023-06-05T20:58:04.377578-07:00"
     description: Practicus AI additional services such as GPT
-    digest: e7b2d12d2ace238b700059f844a963bb98d5b30fd5433cc3de57cc78cb96cb3d
+    digest: 748b08ebe765062e28b42fd36ebd4fe0ab75aa33df8539a76fe48c01c5099ea2
     name: practicus-services
     type: application
     urls:
     - practicus-services-23.5.0.tgz
     version: 23.5.0
-generated: "2023-06-05T18:39:18.602024-07:00"
+generated: "2023-06-05T20:58:04.373897-07:00"
