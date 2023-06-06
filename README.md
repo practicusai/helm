@@ -1,2 +1,1 @@
-# helm
-Practicus AI Kubernetes Helm Chart repository
+# Practicus AI Kubernetes Helm Chart repository
