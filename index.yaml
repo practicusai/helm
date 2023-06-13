@@ -3,9 +3,9 @@ entries:
   practicus-console:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-05T20:58:04.375954-07:00"
+    created: "2023-06-13T12:47:00.296606-07:00"
     description: Practicus AI management console
-    digest: 076b827d4db3c2294b6e3b6ecf77bc39e4dc2027d9acfaf770fd60d348f372c2
+    digest: 795153216928e4d43b51c3299c6be17cad95f156bef1f68f593ed78eee267a16
     name: practicus-console
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   practicus-console-aws-alb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-05T20:58:04.376519-07:00"
+    created: "2023-06-13T12:47:00.297078-07:00"
     description: Practicus AI management console AWS Application load balancer
-    digest: c8d09604c191c66417a61d595e49c2005bc272eca68fbbb40f6adb9a0ee635c0
+    digest: e89b5e8bc0557f4fb2720054d98c315d048b199a0e75c4a5557d93e261050d54
     name: practicus-console-aws-alb
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   practicus-migrate-console-db:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-05T20:58:04.376767-07:00"
+    created: "2023-06-13T12:47:00.297278-07:00"
     description: Upgrades Practicus AI management console database
-    digest: f048f9e0c2e287eed15422b54ac1dfed6384d175efeb1c6f8fbf6bb5edcb1fdc
+    digest: 2e5085a977f1da66721a61ca5a1e8b709700f881d132b77fc7ed60d9d870f385
     name: practicus-migrate-console-db
     type: application
     urls:
@@ -36,12 +36,12 @@ entries:
   practicus-services:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-05T20:58:04.377578-07:00"
+    created: "2023-06-13T12:47:00.298007-07:00"
     description: Practicus AI additional services such as GPT
-    digest: 748b08ebe765062e28b42fd36ebd4fe0ab75aa33df8539a76fe48c01c5099ea2
+    digest: 304b388e9a2907d48148b4ed6e6996b8cabf32fb02d838b0b63f8933d5f0abde
     name: practicus-services
     type: application
     urls:
     - practicus-services-23.5.0.tgz
     version: 23.5.0
-generated: "2023-06-05T20:58:04.373897-07:00"
+generated: "2023-06-13T12:47:00.295538-07:00"
