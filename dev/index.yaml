@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  practicus-console:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-24T12:40:11.542727-07:00"
+    description: Practicus AI management console
+    digest: 368d6294556e65562949c8144a6c71c3354955aba48891d7c623d21679feccee
+    name: practicus-console
+    type: application
+    urls:
+    - practicus-console-23.7.2.tgz
+    version: 23.7.2
+generated: "2023-08-24T12:40:11.536763-07:00"
