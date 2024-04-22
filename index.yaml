@@ -3,13 +3,13 @@ entries:
   practicus-airflow:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.646949-07:00"
+    created: "2024-04-22T14:55:04.498855-07:00"
     dependencies:
     - name: airflow
       repository: https://airflow.apache.org
       version: 1.13.1
     description: Practicus AI Airflow service
-    digest: aadbc80968062ba0ab2375acf3ff5b8b988fd9827592df6e9a60b46c5d98944d
+    digest: 3c2a4955cbb2ab2692990d01c6b2c6a9a7e3aa7f3feb09c35c1e4e9a6be0413f
     name: practicus-airflow
     type: application
     urls:
@@ -17,13 +17,13 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.728957-07:00"
+    created: "2024-04-22T14:55:04.578977-07:00"
     dependencies:
     - name: airflow
       repository: https://airflow.apache.org
       version: 1.13.1
     description: Practicus AI Airflow service
-    digest: aadbc80968062ba0ab2375acf3ff5b8b988fd9827592df6e9a60b46c5d98944d
+    digest: 695a10f1768d2ae38b138aab68305866d71acf3ccb256f3c72233ab6a166e3e8
     name: practicus-airflow
     type: application
     urls:
@@ -32,9 +32,9 @@ entries:
   practicus-console:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.656406-07:00"
+    created: "2024-04-22T14:55:04.507841-07:00"
     description: Practicus AI management console
-    digest: e12b6ea2e993d9cb9415628472efc54ed526170ba2b53e661ad4c2ab0a2931da
+    digest: 663c56f66ce21bd304ca6ac2cff3f70fcb639705fd5b54a9728d9eab3e410b73
     name: practicus-console
     type: application
     urls:
@@ -42,9 +42,9 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.730134-07:00"
+    created: "2024-04-22T14:55:04.580175-07:00"
     description: Practicus AI management console
-    digest: ffcad49da6990a365af28c9e31c22830ee685fb2492fdcabd7aabf4a2747d968
+    digest: 2cff55ac782e34a6f0443ba3a1ee0848ad7f829e585885eb32f669c339bfe6f0
     name: practicus-console
     type: application
     urls:
@@ -52,7 +52,7 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.1.0
-    created: "2024-04-22T02:46:01.655369-07:00"
+    created: "2024-04-22T14:55:04.505943-07:00"
     description: Practicus AI management console
     digest: c91a6131cf91de417913ee5a1fec5a44cb97d77910226aeb0822751cb9bd7b4d
     name: practicus-console
@@ -62,7 +62,7 @@ entries:
     version: 24.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.650095-07:00"
+    created: "2024-04-22T14:55:04.502033-07:00"
     description: Practicus AI management console
     digest: a1f8b368fd4682893d618dc8e0480cf2e3ddde9945bebd01c813b8eff592db60
     name: practicus-console
@@ -72,7 +72,7 @@ entries:
     version: 23.11.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.652785-07:00"
+    created: "2024-04-22T14:55:04.503786-07:00"
     description: Practicus AI management console
     digest: 8a6bcba04df7f50d5851e96e1bfb9f41e8bb24239c4e780520f1f837a10cea1f
     name: practicus-console
@@ -83,9 +83,9 @@ entries:
   practicus-migrate-console-db:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.658453-07:00"
+    created: "2024-04-22T14:55:04.509943-07:00"
     description: Upgrades Practicus AI management console database
-    digest: c55be704ba29bc6a281b36ac496fa645d8d652fedc6b973793a1f0f883f1b619
+    digest: 0e7020551b11134667e154e6042255e2eea72ad856f576bed75184914833d3c9
     name: practicus-migrate-console-db
     type: application
     urls:
@@ -93,9 +93,9 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.730377-07:00"
+    created: "2024-04-22T14:55:04.580455-07:00"
     description: Upgrades Practicus AI management console database
-    digest: 37270e8eb63e66fd856be25f02c23ae7bcad5166f48b5d55b8dfe9dc7926aef9
+    digest: 02daa3793596e3a7f540968b680c02d145e075fcc230b3e047ad99e50190473a
     name: practicus-migrate-console-db
     type: application
     urls:
@@ -103,7 +103,7 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.1.0
-    created: "2024-04-22T02:46:01.65824-07:00"
+    created: "2024-04-22T14:55:04.509436-07:00"
     description: Upgrades Practicus AI management console database
     digest: bae8d5b983bb07af77749befe53d9198a5df09ff580e439bff6a34d23c3a668c
     name: practicus-migrate-console-db
@@ -113,7 +113,7 @@ entries:
     version: 24.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.657012-07:00"
+    created: "2024-04-22T14:55:04.508366-07:00"
     description: Upgrades Practicus AI management console database
     digest: a1f46532f014fed91e0ad0af86835f4b0a7956915bd7c01949c23bf265df1b19
     name: practicus-migrate-console-db
@@ -123,7 +123,7 @@ entries:
     version: 23.11.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.657659-07:00"
+    created: "2024-04-22T14:55:04.508913-07:00"
     description: Upgrades Practicus AI management console database
     digest: 3544ca76083fcaa86c85af666eb3dd8db9bacc90d806710e0cda89a8baa84e5d
     name: practicus-migrate-console-db
@@ -134,9 +134,9 @@ entries:
   practicus-mlflow:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.659297-07:00"
+    created: "2024-04-22T14:55:04.510276-07:00"
     description: Practicus AI MLflow service
-    digest: ec11397a995eb58c4c1c065fda4ef736b4d594bc4809e0b36231b50b6948c619
+    digest: 2d92293295963b0e14412ef8903b4eb775aa013a5f931a303f3004ecefba1b95
     name: practicus-mlflow
     type: application
     urls:
@@ -144,9 +144,9 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.730759-07:00"
+    created: "2024-04-22T14:55:04.580856-07:00"
     description: Practicus AI MLflow service
-    digest: ec11397a995eb58c4c1c065fda4ef736b4d594bc4809e0b36231b50b6948c619
+    digest: 00c81dab13a749da70f4b7843f04bf79dcb2ead6ab89e37c51513d87aea1b07d
     name: practicus-mlflow
     type: application
     urls:
@@ -155,7 +155,7 @@ entries:
   practicus-o11y:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.705884-07:00"
+    created: "2024-04-22T14:55:04.555018-07:00"
     dependencies:
     - alias: promstack
       condition: promstack.enabled
@@ -177,7 +177,7 @@ entries:
       repository: https://kubernetes-sigs.github.io/metrics-server/
       version: 3.12.1
     description: Practicus AI Observability (o11y)
-    digest: 8c9a20d0dd54fe7418800df6a27b5c4d10c0187e865753a766c6e8cb959462b0
+    digest: 0651f87e0984edfc6547e7ae1134d8341830c70a42875f49b28f8d5aace1350d
     name: practicus-o11y
     type: application
     urls:
@@ -185,7 +185,7 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.771659-07:00"
+    created: "2024-04-22T14:55:04.625469-07:00"
     dependencies:
     - alias: promstack
       condition: promstack.enabled
@@ -207,7 +207,7 @@ entries:
       repository: https://kubernetes-sigs.github.io/metrics-server/
       version: 3.12.1
     description: Practicus AI Observability (o11y)
-    digest: de36a1152767c49c67decac1fc711559b283a7a82565115a736d6356f871ff12
+    digest: 3cfe01750ac308ae658f42133379ca0652fe320347b956c9b2cb99a791ae3250
     name: practicus-o11y
     type: application
     urls:
@@ -216,9 +216,9 @@ entries:
   practicus-peppermint:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.706542-07:00"
+    created: "2024-04-22T14:55:04.555438-07:00"
     description: Practicus AI Peppermint
-    digest: 10237199e3f4af512938e5e8e3334903dc2df383a3b4daf7fd51976335def376
+    digest: 7dcb0a3b0e0c340554a19abe4601c67884e6a24383cf548a0e848107d48dc50d
     name: practicus-peppermint
     type: application
     urls:
@@ -226,9 +226,9 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.771894-07:00"
+    created: "2024-04-22T14:55:04.625734-07:00"
     description: Practicus AI Peppermint
-    digest: 074ffff14fcdbcfcaf66807cae4abbd5a7efad5e6c42e5317522952194fc77fe
+    digest: a9e5b9a633a6523abca1c426b3dc88c415f53608df809cc52f661811b8121836
     name: practicus-peppermint
     type: application
     urls:
@@ -237,9 +237,9 @@ entries:
   practicus-pg-db:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.709543-07:00"
+    created: "2024-04-22T14:55:04.558491-07:00"
     description: Practicus AI Cloud Native Postgresql Database
-    digest: 39c311a53ddde53592d474a3584339be37e5b54c077ac2f3c7497131ecb3d14d
+    digest: b8bf9dbe6cd5cc6f99b6b1f0308d1a4e3a953fa419b26372f7c06217cda268bb
     name: practicus-pg-db
     type: application
     urls:
@@ -247,9 +247,9 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.772092-07:00"
+    created: "2024-04-22T14:55:04.625965-07:00"
     description: Practicus AI Cloud Native Postgresql Database
-    digest: f8c309f1d19c70f5ea3528ef80ce30309cf9df8cf222a0e6f33e91a4bb788683
+    digest: e2e562987b5799ec1966247850d409755bab893b8175e3851706669f53280ec9
     name: practicus-pg-db
     type: application
     urls:
@@ -257,7 +257,7 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.1.0
-    created: "2024-04-22T02:46:01.708898-07:00"
+    created: "2024-04-22T14:55:04.557946-07:00"
     description: Practicus AI Cloud Native Postgresql Database
     digest: a6e260dbeddc4476ce2e2e20611aa5b24eaf563decda07f5a5f1ca6e26a34a46
     name: practicus-pg-db
@@ -267,7 +267,7 @@ entries:
     version: 24.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.708091-07:00"
+    created: "2024-04-22T14:55:04.557308-07:00"
     description: Practicus AI Cloud Native Postgresql Database
     digest: 9d53dc9d17b2730d890e9b1c6bf12ef69064c1d498efbd075077172a88da76fe
     name: practicus-pg-db
@@ -277,7 +277,7 @@ entries:
     version: 23.11.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.707142-07:00"
+    created: "2024-04-22T14:55:04.556779-07:00"
     description: Practicus AI Cloud Native Postgresql Database
     digest: 37f3316b050d7d9e0491ec503008155373b593700e64ac426699ee1f6ca970c8
     name: practicus-pg-db
@@ -288,9 +288,9 @@ entries:
   practicus-sampledb:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.711605-07:00"
+    created: "2024-04-22T14:55:04.560544-07:00"
     description: Practicus AI Sample Database
-    digest: 8646c89a1364886e2a8b36272ae022357b72de285d9cca39628874a50e7d1d45
+    digest: 9e4c4e2688a7dfd80aab74075291b2566640cf39ecdbfc7a935d65fa248bc7c1
     name: practicus-sampledb
     type: application
     urls:
@@ -298,9 +298,9 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.772247-07:00"
+    created: "2024-04-22T14:55:04.626144-07:00"
     description: Practicus AI Sample Database
-    digest: 7bfdb2e5f83d7a8875fbbd3d6dd520707bee3b8e5ef6d95b4de151134f8473a9
+    digest: 16f1a699c5370ef40536c7b410ec57d65358a938bb28239c07daff3c4b5b736e
     name: practicus-sampledb
     type: application
     urls:
@@ -308,7 +308,7 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.1.0
-    created: "2024-04-22T02:46:01.711377-07:00"
+    created: "2024-04-22T14:55:04.560136-07:00"
     description: Practicus AI Sample Database
     digest: 33abff5f45aa324ff3960c4c109de03ac915cbbf66860b1b49d31d9c9ea7b1a2
     name: practicus-sampledb
@@ -318,7 +318,7 @@ entries:
     version: 24.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.71031-07:00"
+    created: "2024-04-22T14:55:04.559054-07:00"
     description: Practicus AI Sample Database
     digest: 55f764c665a4c448db8fc0de8e702efe37dc86a3cdd2a9cd15818059a9001f07
     name: practicus-sampledb
@@ -328,7 +328,7 @@ entries:
     version: 23.11.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.710809-07:00"
+    created: "2024-04-22T14:55:04.559573-07:00"
     description: Practicus AI Sample Database
     digest: 612c211239aa5742d03d69ba8e849df8716f9c852a896bd8bd24057b4a1741d7
     name: practicus-sampledb
@@ -339,9 +339,9 @@ entries:
   practicus-sampleobj:
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.713542-07:00"
+    created: "2024-04-22T14:55:04.562631-07:00"
     description: Practicus AI Sample Object Storage
-    digest: 922bead2ce12a28c898a155747c727b6327eeb06ff877784ef0eb7998e57c907
+    digest: 25dbd9d59e2d93355e6d61a8f0106101b6463d0cfa5d4e3d3d491b9dd1f77374
     name: practicus-sampleobj
     type: application
     urls:
@@ -349,9 +349,9 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.3.0
-    created: "2024-04-22T02:46:01.772454-07:00"
+    created: "2024-04-22T14:55:04.626376-07:00"
     description: Practicus AI Sample Object Storage
-    digest: 7ceb6bc1d809a3f9794aa0a7789eaf2df9e1c76fab1edbab841f58ea7dedc121
+    digest: e84674896f053fead72999157bafba63000e337c29ca6105cc12eb6ace15852b
     name: practicus-sampleobj
     type: application
     urls:
@@ -359,7 +359,7 @@ entries:
     version: 24.3.0
   - apiVersion: v2
     appVersion: 24.1.0
-    created: "2024-04-22T02:46:01.71326-07:00"
+    created: "2024-04-22T14:55:04.562113-07:00"
     description: Practicus AI Sample Object Storage
     digest: ef7a484644447836bc7654ac66c9b87b035344c9834face2d9618820ee9a6de1
     name: practicus-sampleobj
@@ -369,7 +369,7 @@ entries:
     version: 24.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.712162-07:00"
+    created: "2024-04-22T14:55:04.560977-07:00"
     description: Practicus AI Sample Object Storage
     digest: b8116e7118e5f84d22e1b8030fba4ab89d00fe865c42bbaeb09b0113337b04e7
     name: practicus-sampleobj
@@ -379,7 +379,7 @@ entries:
     version: 23.11.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.712655-07:00"
+    created: "2024-04-22T14:55:04.561593-07:00"
     description: Practicus AI Sample Object Storage
     digest: cf6ef4d55782f3b70a8be8091a01f238bd71a0ff21617728b7a2a42b6546bfa5
     name: practicus-sampleobj
@@ -390,7 +390,7 @@ entries:
   practicus-services:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.715007-07:00"
+    created: "2024-04-22T14:55:04.563831-07:00"
     description: Practicus AI additional services such as GPT
     digest: eb5adb5c76bb046df0ebf1a6d124075f3e27cb652ea96d024b226895c7d9ed78
     name: practicus-services
@@ -400,7 +400,7 @@ entries:
     version: 23.11.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-22T02:46:01.716406-07:00"
+    created: "2024-04-22T14:55:04.56512-07:00"
     description: Practicus AI additional services such as GPT
     digest: ab7af4aa9353af338e42eebcd48f758227e26262783361c004d159c199b7db2e
     name: practicus-services
@@ -408,4 +408,4 @@ entries:
     urls:
     - practicus-services-23.7.2.tgz
     version: 23.7.2
-generated: "2024-04-22T02:46:01.633146-07:00"
+generated: "2024-04-22T14:55:04.485515-07:00"
