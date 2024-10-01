@@ -1,0 +1,45 @@
+name: Clean Up Git History
+
+on:
+  workflow_dispatch:  # Allows manual triggering of the workflow
+  schedule:
+    - cron: '0 0 1 * *'  # Runs at midnight on the first day of each month
+
+permissions: write-all  # Ensure the token has write permissions
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history to rewrite it
+
+      - name: Configure Git user
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Create a new orphan branch
+        run: |
+          git checkout --orphan clean-branch
+          git add .
+          git commit -m "Cleaned history"
+          git branch -D main  # Delete the current main branch locally
+          git branch -m main  # Rename clean-branch to main
+
+      - name: Force push the cleaned branch to GitHub
+        run: |
+          git push origin main --force
+
+      - name: Run Git Garbage Collection
+        run: |
+          git reflog expire --expire=now --all
+          git gc --prune=now --aggressive
+
+      - name: Remove old tags (Optional)
+        run: |
+          git tag | xargs git tag -d  # Delete all local tags
+          git push origin --tags --force  # Force push tag deletions
