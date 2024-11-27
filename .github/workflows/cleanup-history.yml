@@ -2,8 +2,8 @@ name: Clean Up Git History
 
 on:
   workflow_dispatch:  # Allows manual triggering of the workflow
-  schedule:
-    - cron: '0 0 1 * *'  # Runs at midnight on the first day of each month
+#  schedule:
+#    - cron: '0 0 1 * *'  # Runs at midnight on the first day of each month
 
 permissions: write-all  # Ensure the token has write permissions
 
