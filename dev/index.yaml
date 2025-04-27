@@ -3,7 +3,7 @@ entries:
   practicus-airflow:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:57.905969-07:00"
+    created: "2025-04-27T14:34:51.022432-07:00"
     dependencies:
     - name: airflow
       repository: https://airflow.apache.org
@@ -15,52 +15,10 @@ entries:
     urls:
     - practicus-airflow-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:57.893027-07:00"
-    dependencies:
-    - name: airflow
-      repository: https://airflow.apache.org
-      version: 1.15.0
-    description: Practicus AI Airflow Service
-    digest: a4f4404bb96b61a2d2484a484c8b19539e449ea9bd18661cecfde78f408f696b
-    name: practicus-airflow
-    type: application
-    urls:
-    - practicus-airflow-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:57.879159-07:00"
-    dependencies:
-    - name: airflow
-      repository: https://airflow.apache.org
-      version: 1.15.0
-    description: Practicus AI Airflow Service
-    digest: 6fbcefced6f25b1dcf20b2e8d17346bc186329a3603f59c578185a15ef51d59d
-    name: practicus-airflow
-    type: application
-    urls:
-    - practicus-airflow-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:57.86495-07:00"
-    dependencies:
-    - name: airflow
-      repository: https://airflow.apache.org
-      version: 1.15.0
-    description: Practicus AI Airflow Service
-    digest: 278a9f18c1ad4faea5324dfe4042bc9279d6d95e619893e2d86ff818c6784221
-    name: practicus-airflow
-    type: application
-    urls:
-    - practicus-airflow-24.8.1.tgz
-    version: 24.8.1
   practicus-analytics:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:57.950031-07:00"
+    created: "2025-04-27T14:34:51.038296-07:00"
     dependencies:
     - name: nessie
       repository: https://charts.projectnessie.org
@@ -78,52 +36,12 @@ entries:
     urls:
     - practicus-analytics-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:57.93582-07:00"
-    dependencies:
-    - name: nessie
-      repository: https://charts.projectnessie.org
-      version: 0.99.0
-    - name: trino
-      repository: https://trinodb.github.io/charts
-      version: 0.32.0
-    - name: superset
-      repository: https://apache.github.io/superset
-      version: 0.12.11
-    description: Practicus AI Analytics Services
-    digest: 168adcf9b3e0c8bc74a4dc707e3bb6067d0e76877b9d87dbcbf8315b0246560b
-    name: practicus-analytics
-    type: application
-    urls:
-    - practicus-analytics-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:57.921004-07:00"
-    dependencies:
-    - name: nessie
-      repository: https://charts.projectnessie.org
-      version: 0.99.0
-    - name: trino
-      repository: https://trinodb.github.io/charts
-      version: 0.32.0
-    - name: superset
-      repository: https://apache.github.io/superset
-      version: 0.12.11
-    description: Practicus AI Analytics Services
-    digest: 1a5bf2ba6b6964d65c971904e0dd786c78229389d1031ed166da35cc362e6069
-    name: practicus-analytics
-    type: application
-    urls:
-    - practicus-analytics-24.8.2.tgz
-    version: 24.8.2
   practicus-console:
   - apiVersion: v2
     appVersion: 25.5.0
-    created: "2025-04-24T17:51:57.959296-07:00"
+    created: "2025-04-27T14:34:51.041132-07:00"
     description: Practicus AI management console
-    digest: 0975110dd5543609d1d2d5ddb7d2a8a9121daa109bce37c9e084ce2b4006ae8a
+    digest: 64e8d85d9a8aaae11828b2c20c163ffa016d2d83b8c4c2a8d97a07d150300c14
     name: practicus-console
     type: application
     urls:
@@ -131,7 +49,7 @@ entries:
     version: 25.5.0
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:57.957217-07:00"
+    created: "2025-04-27T14:34:51.039829-07:00"
     description: Practicus AI management console
     digest: c9a9ed7c0d6c332e5c7470e254c11b927964d6ef2cac2a0d3db585349469fe79
     name: practicus-console
@@ -139,40 +57,10 @@ entries:
     urls:
     - practicus-console-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:57.955169-07:00"
-    description: Practicus AI management console
-    digest: be50f93c35d4fb9bcfdf6fd7610978e77aadd49068f5296ba607260b47c63ae6
-    name: practicus-console
-    type: application
-    urls:
-    - practicus-console-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:57.953339-07:00"
-    description: Practicus AI management console
-    digest: 84a53e8fc07e95fa162dcbd39739c3a72fbe93519a1971e1b534d116d712141a
-    name: practicus-console
-    type: application
-    urls:
-    - practicus-console-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:57.951803-07:00"
-    description: Practicus AI management console
-    digest: 772852179e5bd9c2cb04494e0aade85a64234e475410a6d01a50320c7bad1755
-    name: practicus-console
-    type: application
-    urls:
-    - practicus-console-24.8.1.tgz
-    version: 24.8.1
   practicus-gitea:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.0018-07:00"
+    created: "2025-04-27T14:34:51.064339-07:00"
     dependencies:
     - name: gitea
       repository: https://dl.gitea.com/charts/
@@ -184,24 +72,10 @@ entries:
     urls:
     - practicus-gitea-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:57.980795-07:00"
-    dependencies:
-    - name: gitea
-      repository: https://dl.gitea.com/charts/
-      version: 10.6.0
-    description: Practicus AI Git Service
-    digest: 9ec58430ba093d13cd54ee186a2ab21ac8e13455c9ab02b06907b455ea52f4c1
-    name: practicus-gitea
-    type: application
-    urls:
-    - practicus-gitea-24.8.3.tgz
-    version: 24.8.3
   practicus-harbor:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.011082-07:00"
+    created: "2025-04-27T14:34:51.068318-07:00"
     dependencies:
     - name: harbor
       repository: https://helm.goharbor.io
@@ -213,24 +87,10 @@ entries:
     urls:
     - practicus-harbor-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.005479-07:00"
-    dependencies:
-    - name: harbor
-      repository: https://helm.goharbor.io
-      version: 1.16.0
-    description: Practicus AI Harbor Container Registry Service
-    digest: 5cae697b0da0af4f5272ac9a4980ade456d9c30f976c027972b509bb1a865fa8
-    name: practicus-harbor
-    type: application
-    urls:
-    - practicus-harbor-24.8.3.tgz
-    version: 24.8.3
   practicus-home:
   - apiVersion: v2
     appVersion: 25.5.0
-    created: "2025-04-24T17:51:58.014306-07:00"
+    created: "2025-04-27T14:34:51.068916-07:00"
     description: Practicus AI Home
     digest: 33b7e62c5438c9eeadef40c2818355f272563a495ece35f110d853664a4da2d4
     name: practicus-home
@@ -240,7 +100,7 @@ entries:
     version: 25.5.0
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.014018-07:00"
+    created: "2025-04-27T14:34:51.068627-07:00"
     description: Practicus AI Home
     digest: 72912708279fc93c17f10e17a0bde12f1ed3f8f6da85317474a9b159ad852457
     name: practicus-home
@@ -248,40 +108,10 @@ entries:
     urls:
     - practicus-home-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.013356-07:00"
-    description: Practicus AI Home
-    digest: 98d6d53a9b9fe288e0c88de3b533607a86955abdbe53ff5e61860b568b1d1ce8
-    name: practicus-home
-    type: application
-    urls:
-    - practicus-home-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:58.012533-07:00"
-    description: Practicus AI Home
-    digest: d66225b2b23f2f206503d819d92336b5300697dfafa37828adb2c1d358714c3c
-    name: practicus-home
-    type: application
-    urls:
-    - practicus-home-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.01173-07:00"
-    description: Practicus AI Home
-    digest: 32602a993f5c5e3690964bcee37467bb4f119e535e1cd40ecc24cc85865a0965
-    name: practicus-home
-    type: application
-    urls:
-    - practicus-home-24.8.1.tgz
-    version: 24.8.1
   practicus-langflow:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.043771-07:00"
+    created: "2025-04-27T14:34:51.074874-07:00"
     dependencies:
     - alias: langflowide
       name: langflow-ide
@@ -294,72 +124,12 @@ entries:
     urls:
     - practicus-langflow-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.038161-07:00"
-    dependencies:
-    - alias: langflowide
-      name: langflow-ide
-      repository: https://langflow-ai.github.io/langflow-helm-charts
-      version: 0.1.0
-    description: Practicus AI Langflow Service
-    digest: 295bc61ec217bcfe95d64af96261aeb462bb1ad754ab6dacfc477fba17313950
-    name: practicus-langflow
-    type: application
-    urls:
-    - practicus-langflow-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:58.032964-07:00"
-    dependencies:
-    - alias: langflowide
-      name: langflow-ide
-      repository: https://langflow-ai.github.io/langflow-helm-charts
-      version: 0.1.0
-    description: Practicus AI Langflow Service
-    digest: 6336242b5b90406d00d90e0b4ee3071317e1781dbeeccc60fe6a9e8899dc1382
-    name: practicus-langflow
-    type: application
-    urls:
-    - practicus-langflow-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.026783-07:00"
-    dependencies:
-    - alias: langflowide
-      name: langflow-ide
-      repository: https://langflow-ai.github.io/langflow-helm-charts
-      version: 0.1.0
-    description: Practicus AI Langflow Service
-    digest: 9f7c94a9e1cef5c210ffbdce7890c2a2241363cb92e6be8b09112c2b36683d29
-    name: practicus-langflow
-    type: application
-    urls:
-    - practicus-langflow-24.8.1.tgz
-    version: 24.8.1
-  - apiVersion: v2
-    appVersion: 24.8.0
-    created: "2025-04-24T17:51:58.021043-07:00"
-    dependencies:
-    - alias: langflowide
-      name: langflow-ide
-      repository: https://langflow-ai.github.io/langflow-helm-charts
-      version: 0.1.0
-    description: Practicus AI Langflow Service
-    digest: 8cc615eed6d3df30c205649f983815bd9c0563fbb776b760a3ab19ee72390226
-    name: practicus-langflow
-    type: application
-    urls:
-    - practicus-langflow-24.8.0.tgz
-    version: 24.8.0
   practicus-migrate-console-db:
   - apiVersion: v2
     appVersion: 25.5.0
-    created: "2025-04-24T17:51:58.046487-07:00"
+    created: "2025-04-27T14:34:51.075236-07:00"
     description: Upgrades Practicus AI management console database
-    digest: a3fc03ff3671fdf6a54c50c5e7b1d777e45b75a236168f2b12d01ee11ac25f6a
+    digest: 338e0b0763007f15ca51d4c36004178eed3f76e4f8e884ecf9174fbad03e65a5
     name: practicus-migrate-console-db
     type: application
     urls:
@@ -367,7 +137,7 @@ entries:
     version: 25.5.0
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.045964-07:00"
+    created: "2025-04-27T14:34:51.075068-07:00"
     description: Upgrades Practicus AI management console database
     digest: 32b5e76b656c3177c2f132d1fb530347dfa2d2b50215092316e4431efa5b8aa0
     name: practicus-migrate-console-db
@@ -375,40 +145,10 @@ entries:
     urls:
     - practicus-migrate-console-db-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.045474-07:00"
-    description: Upgrades Practicus AI management console database
-    digest: 8ed51272e955110dde314db88615c08d0bf0d066356ed5646f9f57e13b6383d7
-    name: practicus-migrate-console-db
-    type: application
-    urls:
-    - practicus-migrate-console-db-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:58.044923-07:00"
-    description: Upgrades Practicus AI management console database
-    digest: 3614db706e10de624ab30771256a4ba177a4d8494b9c62b61130d99c3d1f2d2c
-    name: practicus-migrate-console-db
-    type: application
-    urls:
-    - practicus-migrate-console-db-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.044379-07:00"
-    description: Upgrades Practicus AI management console database
-    digest: a449518d362b1dac9dec927d53c7b2ace22e27b329f747101a290fc563e2035c
-    name: practicus-migrate-console-db
-    type: application
-    urls:
-    - practicus-migrate-console-db-24.8.1.tgz
-    version: 24.8.1
   practicus-milvus:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.210758-07:00"
+    created: "2025-04-27T14:34:51.122185-07:00"
     dependencies:
     - name: milvus
       repository: https://zilliztech.github.io/milvus-helm/
@@ -420,66 +160,10 @@ entries:
     urls:
     - practicus-milvus-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.16705-07:00"
-    dependencies:
-    - name: milvus
-      repository: https://zilliztech.github.io/milvus-helm/
-      version: 4.2.25
-    description: Practicus AI Milvus Service
-    digest: 329fff2d13af5668299e659d601ca010b22d37a3fad6e9c816bc16c881f753ff
-    name: practicus-milvus
-    type: application
-    urls:
-    - practicus-milvus-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:58.122603-07:00"
-    dependencies:
-    - name: milvus
-      repository: https://zilliztech.github.io/milvus-helm/
-      version: 4.2.25
-    description: Practicus AI Milvus Service
-    digest: f37c4da96d66867779461029b067b408322a09110b9d390ca0affdfae5140bf2
-    name: practicus-milvus
-    type: application
-    urls:
-    - practicus-milvus-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.080453-07:00"
-    dependencies:
-    - name: milvus
-      repository: https://zilliztech.github.io/milvus-helm/
-      version: 4.2.8
-    description: Practicus AI Milvus Service
-    digest: 1e040a4d40f6650d22347503f0fe49bc1822617c51ee44a607c230d15ed1e5f8
-    name: practicus-milvus
-    type: application
-    urls:
-    - practicus-milvus-24.8.1.tgz
-    version: 24.8.1
-  - apiVersion: v2
-    appVersion: 24.8.0
-    created: "2025-04-24T17:51:58.061906-07:00"
-    dependencies:
-    - name: milvus
-      repository: https://zilliztech.github.io/milvus-helm/
-      version: 4.2.8
-    description: Practicus AI Milvus Service
-    digest: 9f2a2952d18222ca2c26511c00a66f6dfabd6c4f00a0da3e4b643072965f8c6c
-    name: practicus-milvus
-    type: application
-    urls:
-    - practicus-milvus-24.8.0.tgz
-    version: 24.8.0
   practicus-mlflow:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.213396-07:00"
+    created: "2025-04-27T14:34:51.122539-07:00"
     description: Practicus AI MLflow Service
     digest: 79694b5121a80a7be4be308625a04afa4ebcec99d892a5cb07061bb96fa5867b
     name: practicus-mlflow
@@ -487,57 +171,10 @@ entries:
     urls:
     - practicus-mlflow-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.21275-07:00"
-    description: Practicus AI MLflow Service
-    digest: 4d9684ee13ac912f56528b8bd4663aa6aa6bf4b59815129c885c09f035d0b55b
-    name: practicus-mlflow
-    type: application
-    urls:
-    - practicus-mlflow-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:58.212034-07:00"
-    description: Practicus AI MLflow Service
-    digest: 15481681c9df2aa39ca05c524e1f018cc84252fcdfbee647b253167b8f8f27a4
-    name: practicus-mlflow
-    type: application
-    urls:
-    - practicus-mlflow-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.21153-07:00"
-    description: Practicus AI MLflow Service
-    digest: a223b68c8f7f626a74c5020432d7e1c73b6683a17d911260eefe98764fe546c8
-    name: practicus-mlflow
-    type: application
-    urls:
-    - practicus-mlflow-24.8.1.tgz
-    version: 24.8.1
-  practicus-nfs:
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.214687-07:00"
-    dependencies:
-    - alias: nfsprovisioner
-      condition: nfsprovisioner.enabled
-      name: nfs-subdir-external-provisioner
-      repository: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/
-      version: 4.0.18
-    description: Practicus AI NFS and NFS Provisioner Service
-    digest: 505edc50ac7f1a69d4c4229a4571c96022a21b6c62f37008c75e030de2d56f96
-    name: practicus-nfs
-    type: application
-    urls:
-    - practicus-nfs-24.8.1.tgz
-    version: 24.8.1
   practicus-o11y:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.431636-07:00"
+    created: "2025-04-27T14:34:51.174092-07:00"
     dependencies:
     - alias: promstack
       condition: promstack.enabled
@@ -565,143 +202,12 @@ entries:
     urls:
     - practicus-o11y-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.387895-07:00"
-    dependencies:
-    - alias: promstack
-      condition: promstack.enabled
-      name: kube-prometheus-stack
-      repository: https://prometheus-community.github.io/helm-charts
-      version: 65.3.2
-    - condition: loki.enabled
-      name: loki
-      repository: https://grafana.github.io/helm-charts
-      version: 6.18.0
-    - alias: fluentbit
-      condition: fluentbit.enabled
-      name: fluent-bit
-      repository: https://fluent.github.io/helm-charts
-      version: 0.47.10
-    - alias: metricsserver
-      condition: metricsserver.enabled
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.12.2
-    description: Practicus AI Observability (o11y) Services
-    digest: 3cb753b2f0670eef85511007ee6bb4ae2870b9ade4fdfd7c074168d772132241
-    name: practicus-o11y
-    type: application
-    urls:
-    - practicus-o11y-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:58.342282-07:00"
-    dependencies:
-    - alias: promstack
-      condition: promstack.enabled
-      name: kube-prometheus-stack
-      repository: https://prometheus-community.github.io/helm-charts
-      version: 65.3.2
-    - condition: loki.enabled
-      name: loki
-      repository: https://grafana.github.io/helm-charts
-      version: 6.18.0
-    - alias: fluentbit
-      condition: fluentbit.enabled
-      name: fluent-bit
-      repository: https://fluent.github.io/helm-charts
-      version: 0.47.10
-    - alias: metricsserver
-      condition: metricsserver.enabled
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.12.2
-    description: Practicus AI Observability (o11y) Services
-    digest: 7977fbb8c1adc8c8a90a18587dbfdf322082be06319757d0ddcaeb67abeef5d8
-    name: practicus-o11y
-    type: application
-    urls:
-    - practicus-o11y-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.298523-07:00"
-    dependencies:
-    - alias: promstack
-      condition: promstack.enabled
-      name: kube-prometheus-stack
-      repository: https://prometheus-community.github.io/helm-charts
-      version: 62.3.1
-    - condition: loki.enabled
-      name: loki
-      repository: https://grafana.github.io/helm-charts
-      version: 6.10.2
-    - alias: fluentbit
-      condition: fluentbit.enabled
-      name: fluent-bit
-      repository: https://fluent.github.io/helm-charts
-      version: 0.47.7
-    - alias: metricsserver
-      condition: metricsserver.enabled
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.12.1
-    description: Practicus AI Observability (o11y) Services
-    digest: 7b7dcf8211967a1bf305e20caecb18afd8b558a0410151f307f867d4f8a4814e
-    name: practicus-o11y
-    type: application
-    urls:
-    - practicus-o11y-24.8.1.tgz
-    version: 24.8.1
-  - apiVersion: v2
-    appVersion: 24.8.0
-    created: "2025-04-24T17:51:58.25674-07:00"
-    dependencies:
-    - alias: promstack
-      condition: promstack.enabled
-      name: kube-prometheus-stack
-      repository: https://prometheus-community.github.io/helm-charts
-      version: 62.3.1
-    - condition: loki.enabled
-      name: loki
-      repository: https://grafana.github.io/helm-charts
-      version: 6.10.2
-    - alias: fluentbit
-      condition: fluentbit.enabled
-      name: fluent-bit
-      repository: https://fluent.github.io/helm-charts
-      version: 0.47.7
-    - alias: metricsserver
-      condition: metricsserver.enabled
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.12.1
-    description: Practicus AI Observability (o11y) Services
-    digest: 31b37359f35645258f05d9e54a3cf4e4748b2c4ecb45aabb11514142e5e88540
-    name: practicus-o11y
-    type: application
-    urls:
-    - practicus-o11y-24.8.0.tgz
-    version: 24.8.0
-  practicus-peppermint:
-  - apiVersion: v2
-    appVersion: 24.8.0
-    created: "2025-04-24T17:51:58.432295-07:00"
-    description: Practicus AI Peppermint Service
-    digest: 6987f2984944eaa45801caa3032b9d245dbc5989b0b2507139fad707dedc03ea
-    name: practicus-peppermint
-    type: application
-    urls:
-    - practicus-peppermint-24.8.0.tgz
-    version: 24.8.0
   practicus-pg-db:
   - apiVersion: v2
     appVersion: 25.5.0
-    created: "2025-04-24T17:51:58.434919-07:00"
+    created: "2025-04-27T14:34:51.174569-07:00"
     description: Practicus AI Cloud Native Postgresql Database
-    digest: bfa153edbb79a441d53303faa90a73497b752d2b3e1aac75b629fe046311f71f
+    digest: ff7c9fef10cc5420e464696cc0cdbbae52eab6c7dd49d0d5864f4f0a8c6999cf
     name: practicus-pg-db
     type: application
     urls:
@@ -709,7 +215,7 @@ entries:
     version: 25.5.0
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.43437-07:00"
+    created: "2025-04-27T14:34:51.174396-07:00"
     description: Practicus AI Cloud Native Postgresql Database
     digest: 6e3cc48504bca6e47608f818f2b358a829c1afff2c1eb34ae4a64afd9bb91065
     name: practicus-pg-db
@@ -717,42 +223,12 @@ entries:
     urls:
     - practicus-pg-db-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.433845-07:00"
-    description: Practicus AI Cloud Native Postgresql Database
-    digest: 09ab61659b9b453d385017d4421046966a0806757bfd77f6c9df33f393a6b586
-    name: practicus-pg-db
-    type: application
-    urls:
-    - practicus-pg-db-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:58.433292-07:00"
-    description: Practicus AI Cloud Native Postgresql Database
-    digest: eb91aa5ad5c4ce85dde0421440d72ef811510c9b85138ca2dbd0394a1055757d
-    name: practicus-pg-db
-    type: application
-    urls:
-    - practicus-pg-db-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.432731-07:00"
-    description: Practicus AI Cloud Native Postgresql Database
-    digest: 4ae0e3653b2a2b7102044cb163684ff14c375fa7ff119e2a48262b9f6f629117
-    name: practicus-pg-db
-    type: application
-    urls:
-    - practicus-pg-db-24.8.1.tgz
-    version: 24.8.1
   practicus-rabbitmq:
   - apiVersion: v2
     appVersion: 25.5.0
-    created: "2025-04-24T17:51:58.435994-07:00"
+    created: "2025-04-27T14:34:51.174924-07:00"
     description: Practicus AI RabbitMQ Cluster
-    digest: 2289d307feccdf7b259ad755ad5a58d0782eb3c9c3b159de3602201854ace1df
+    digest: 577d40e59ec43301beb8fe0ee1e8bd750c2e28094960ada41566ec6fde690f48
     name: practicus-rabbitmq
     type: application
     urls:
@@ -760,7 +236,7 @@ entries:
     version: 25.5.0
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.435454-07:00"
+    created: "2025-04-27T14:34:51.174748-07:00"
     description: Practicus AI RabbitMQ Cluster
     digest: be60adeba048f4141fefc2f7a3a23f536196984ef5771431d73607b399d19fa2
     name: practicus-rabbitmq
@@ -768,34 +244,12 @@ entries:
     urls:
     - practicus-rabbitmq-24.8.4.tgz
     version: 24.8.4
-  practicus-sampledb:
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.436288-07:00"
-    description: Practicus AI Sample Database
-    digest: 7584fcb77274c71b5e6e31be453fb64673ce50dbe36df69792096546584927ad
-    name: practicus-sampledb
-    type: application
-    urls:
-    - practicus-sampledb-24.8.1.tgz
-    version: 24.8.1
-  practicus-sampleobj:
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.43669-07:00"
-    description: Practicus AI Sample Object Storage
-    digest: ed64fd67285c5f5ab15be0494d8cbdf70c008ed9da354e9f79c5a9728d2c4e60
-    name: practicus-sampleobj
-    type: application
-    urls:
-    - practicus-sampleobj-24.8.1.tgz
-    version: 24.8.1
   practicus-simpleobj:
   - apiVersion: v2
     appVersion: 25.5.0
-    created: "2025-04-24T17:51:58.439272-07:00"
+    created: "2025-04-27T14:34:51.176225-07:00"
     description: Practicus AI Simple Object Storage
-    digest: ce442aa28ddb2aede6c03ecf52579625040c16f37b53da2e68752dda6d8abc68
+    digest: 92f563ae50834d1d1ee64d4b19fad8f960957444ca5c68deb8b1a8b04fe85385
     name: practicus-simpleobj
     type: application
     urls:
@@ -803,7 +257,7 @@ entries:
     version: 25.5.0
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.438664-07:00"
+    created: "2025-04-27T14:34:51.175455-07:00"
     description: Practicus AI Simple Object Storage
     digest: 0ad057c7ae5bd6c30b2adc1341dabb253c0cfdc8ca54cc5b15836756d224334f
     name: practicus-simpleobj
@@ -811,40 +265,10 @@ entries:
     urls:
     - practicus-simpleobj-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.438074-07:00"
-    description: Practicus AI Simple Object Storage
-    digest: a6b2df2568d734ddef72b7be66ccf52ab232e01e8d6f0958f53ac47e4791303e
-    name: practicus-simpleobj
-    type: application
-    urls:
-    - practicus-simpleobj-24.8.3.tgz
-    version: 24.8.3
-  - apiVersion: v2
-    appVersion: 24.8.2
-    created: "2025-04-24T17:51:58.437553-07:00"
-    description: Practicus AI Simple Object Storage
-    digest: d0fc65f28dd337e13831e79d0edaa0d739fd422467f46282c5dbeb98aa8597a9
-    name: practicus-simpleobj
-    type: application
-    urls:
-    - practicus-simpleobj-24.8.2.tgz
-    version: 24.8.2
-  - apiVersion: v2
-    appVersion: 24.8.1
-    created: "2025-04-24T17:51:58.437116-07:00"
-    description: Practicus AI Simple Object Storage
-    digest: 2bfbda5f0919e60fbe3ca20680c8634994864ec2543491764a22bbb6f5042b27
-    name: practicus-simpleobj
-    type: application
-    urls:
-    - practicus-simpleobj-24.8.1.tgz
-    version: 24.8.1
   practicus-zammad:
   - apiVersion: v2
     appVersion: 24.8.4
-    created: "2025-04-24T17:51:58.492923-07:00"
+    created: "2025-04-27T14:34:51.204634-07:00"
     dependencies:
     - name: zammad
       repository: https://zammad.github.io/zammad-helm
@@ -856,18 +280,4 @@ entries:
     urls:
     - practicus-zammad-24.8.4.tgz
     version: 24.8.4
-  - apiVersion: v2
-    appVersion: 24.8.3
-    created: "2025-04-24T17:51:58.464942-07:00"
-    dependencies:
-    - name: zammad
-      repository: https://zammad.github.io/zammad-helm
-      version: 13.0.6
-    description: Practicus AI Zammad Ticket Service
-    digest: ac1b765ddbeb3efa2d1ef12b2b46eb7ae5292e479172b606932ba0cd04a11082
-    name: practicus-zammad
-    type: application
-    urls:
-    - practicus-zammad-24.8.3.tgz
-    version: 24.8.3
-generated: "2025-04-24T17:51:57.849669-07:00"
+generated: "2025-04-27T14:34:51.009447-07:00"
