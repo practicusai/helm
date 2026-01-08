@@ -2985,4 +2985,19 @@ entries:
     urls:
     - practicus-zammad-24.8.3.tgz
     version: 24.8.3
+  practicus-librechat:
+  - apiVersion: v2
+    appVersion: 25.5.4
+    created: "2025-12-14T10:59:44.546669-08:00"
+    dependencies:
+    - name: librechat
+      repository: oci://ghcr.io/danny-avila/librechat-chart
+      version: 1.9.2
+    description: Practicus AI LibreChat
+    digest: e0d5b2d18688c4b4d951ab3992587899a3f7c8b9b1bd9558f3ac4664b41717ef
+    name: practicus-librechat
+    type: application
+    urls:
+    - practicus-librechat-25.5.4.tgz
+    version: 25.5.4
 generated: "2025-10-14T14:11:39.689474-07:00"
