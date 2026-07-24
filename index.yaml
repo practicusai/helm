@@ -1461,6 +1461,20 @@ entries:
     version: 25.5.4
   practicus-librechat:
   - apiVersion: v2
+    appVersion: 26.4.2
+    created: "2026-07-24T16:08:15.19038+03:00"
+    dependencies:
+    - name: librechat
+      repository: oci://ghcr.io/danny-avila/librechat-chart
+      version: 2.0.7
+    description: Practicus AI LibreChat
+    digest: 66ee161b881d187efba1a13eb81a8c0b2894f2b6ef9e8358ad8a9b5497bd9eee
+    name: practicus-librechat
+    type: application
+    urls:
+    - practicus-librechat-26.4.2.tgz
+    version: 26.4.2  
+  - apiVersion: v2
     appVersion: 26.4.1
     created: "2026-06-29T14:33:21.225998-07:00"
     dependencies:
